@@ -1,0 +1,71 @@
+# Version control
+.git
+.gitignore
+
+# IDE and editor
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Documentation (keep only essential docs)
+*.md
+!README.md
+CLAUDE.md
+AGENTS.md
+PLAN.md
+
+# Frontend
+node_modules
+.next
+out
+.cache
+*.tsbuildinfo
+npm-debug.log*
+
+# Backend
+__pycache__
+*.pyc
+*.pyo
+.env
+\backend\.env
+backend/.env
+.venv
+venv/
+*.egg-info
+.pytest_cache
+
+# Test and coverage
+.coverage
+htmlcov
+coverage.xml
+*.cover
+
+# Build artifacts
+dist
+build
+
+# Environment files
+.env.local
+
+# Logs
+*.log
+logs/
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+.temp/
+tmp/
+
+# Docker (handled by project Dockerfiles)
+Dockerfile*
+docker-compose.yml
+
+# CI/CD
+.github/

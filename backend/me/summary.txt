@@ -1,0 +1,115 @@
+Professional Summary
+Princewill C. Chioma is an AI Systems Engineer based in Lagos, Nigeria, specializing in building and deploying production-grade AI systems, particularly in LLMs, agentic AI, and cloud-native applications. He is open to remote and hybrid roles globally.
+
+What makes Princewill unique is his hybrid career foundation: nearly a decade of experience in finance, operations, and regulatory environments, combined with advanced expertise in AI engineering and data systems. This dual background allows him to design AI solutions that are not only technically sound but also aligned with real-world business constraints, compliance requirements, and operational efficiency.
+
+Professional Evolution
+
+Princewill’s career reflects a deliberate progression from business operations into advanced AI engineering:
+
+Began in audit and internal control at Guaranty Trust Bank, focusing on compliance and risk management
+Advanced into finance and operations leadership, driving measurable impact including cost reduction and productivity improvements
+Transitioned into data science, building analytical and machine learning systems
+Currently operates as a full-stack AI Engineer, designing and deploying intelligent systems end-to-end
+
+This journey gives him a rare ability to bridge business needs and AI implementation.
+
+Core Expertise
+AI Engineering & LLM Systems
+
+Princewill designs intelligent systems using:
+
+Retrieval-Augmented Generation (RAG)
+Fine-tuning techniques (including QLoRA)
+Multimodal AI (text, audio, image)
+Prompt engineering and model orchestration
+Vector databases and embedding systems
+Agentic AI Systems
+
+He has deep hands-on experience building autonomous and multi-agent systems using:
+
+CrewAI, LangGraph, AutoGen
+OpenAI Agents SDK and Google ADK
+Model Context Protocol (MCP) with multi-tool integrations
+Complex agent workflows, swarms, and decision loops
+MLOps & Cloud Deployment
+
+Princewill delivers production-ready systems using:
+
+AWS (Bedrock, SageMaker, Lambda, S3, Aurora Serverless, etc.)
+GCP and Azure ML
+CI/CD pipelines (GitHub Actions), Infrastructure as Code (Terraform)
+Observability tools like LangFuse
+Docker and serverless architectures
+Software Engineering & Data
+Python (primary language), SQL
+FastAPI, Next.js, TypeScript
+ETL pipelines, data modeling, and analytics tools
+Automation & AI Integrations
+Workflow automation with N8N, Zapier, Make.com, Airtable
+API integrations (REST, OpenRouter, Serper, SendGrid)
+Voice AI systems (ElevenLabs)
+Domain Strength: Financial Systems & Operations
+
+Princewill brings strong domain expertise in:
+
+Financial services automation
+Regulatory compliance (AML, CBN, NFIU)
+Business operations optimization
+Forecasting and cost efficiency
+
+This enables him to build AI systems that are compliant, scalable, and commercially viable, especially in regulated industries.
+
+Selected Projects & Systems
+
+Princewill has built and deployed a wide range of AI systems, including:
+
+Healthcare AI SaaS Platform — Converts consultation notes into structured medical records and patient-ready outputs
+AI Business Development Agent — Multi-agent pipeline handling research, qualification, copywriting, and outreach
+AI Customer Support Agent — Conversational system with structured outputs for business workflows
+Synthetic Data Generator — Configurable system for generating structured datasets
+Automation Systems — Airtable and API-driven workflow automation with validation logic
+
+He has also completed 15+ advanced AI systems, including:
+
+Multi-modal AI assistants
+Autonomous multi-agent ecosystems
+RAG-based knowledge workers
+AI-powered developer tools
+Financial and trading AI systems
+Cybersecurity and browser automation agents
+Education & Certifications
+
+Princewill holds a BSc in Computer Science and multiple credentials across:
+
+Applied Data Science
+Accounting and Business (ACCA pathway)
+Cybersecurity and network systems
+
+He has completed advanced, hands-on training across:
+
+LLM engineering, agentic AI, and multi-agent systems
+MLOps and large-scale AI deployment
+AI leadership and business applications
+Prompt engineering and data engineering
+What Sets Him Apart
+Business + AI Integration: Combines deep financial and operational experience with cutting-edge AI engineering
+End-to-End Builder: Designs, builds, deploys, and scales AI systems independently
+Agentic AI Specialist: Experienced across all major modern agent frameworks and architectures
+Proven Execution: Delivered live SaaS applications, production systems, and numerous advanced AI projects
+How to Position Him
+
+Princewill is best described as:
+
+A Production AI Engineer
+An Agentic AI Systems Specialist
+A Full-Stack AI Builder for Real-World Business Problems
+
+He is particularly well-suited for:
+
+AI product engineering roles
+LLM and agent-based system development
+AI solutions in finance, operations, and SaaS
+Startups or teams needing 0→1 AI system builders
+Currently building multi-agent financial analyst teams and production Digital Twins, Princewill is actively seeking AI Engineer, LLM Engineer, Agentic AI Engineer, or GenAI Platform Engineer roles, freelance/consulting projects, and collaborations where autonomous AI can drive real revenue and operational transformation.
+Passionate about cutting-edge Agentic AI and production excellence, he communicates complex concepts clearly to both technical and executive audiences and is always ready to demonstrate live projects from his GitHub (github.com/MrPwill).
