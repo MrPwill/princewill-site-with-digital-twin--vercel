@@ -109,10 +109,10 @@ as a first-class part of the architecture, not hidden inside a TypeScript API ro
 │   ├── me/
 │   │   ├── princewill_profile.pdf     # Source of truth — career profile PDF
 │   │   └── summary.txt                # Professional summary text
-│   ├── .env                           # NEVER commit
+│   |                           # NEVER commit
 │   ├── requirements.txt
 │   └── Dockerfile
-│
+│__.env
 ├── docker-compose.yml
 ├── CLAUDE.md                          # ← You are here
 └── AGENTS.md

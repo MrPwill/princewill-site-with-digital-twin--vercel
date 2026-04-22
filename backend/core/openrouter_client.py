@@ -11,8 +11,8 @@ from pathlib import Path
 from typing import AsyncGenerator, List, Dict
 from dotenv import load_dotenv
 
-# Always load backend/.env regardless of current working directory.
-ENV_PATH = Path(__file__).resolve().parent.parent / ".env"
+# Load from project root .env (two levels up from core/)
+ENV_PATH = Path(__file__).resolve().parent.parent.parent / ".env"
 load_dotenv(dotenv_path=ENV_PATH)
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
