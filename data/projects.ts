@@ -129,7 +129,7 @@ export const projects: Project[] = [
     highlights: [
       "Stateless Python FastAPI backend optimized for Vercel Serverless with client-managed conversation history",
       "Server-Sent Events (SSE) streaming for real-time, token-by-token AI responses",
-      "Dynamic prompt building and context-aware responses powered by openai/gpt-4o-mini via OpenRouter",
+      "Dynamic prompt building and context-aware responses powered by openai/gpt-oss-120b via OpenRouter",
       "Modern Next.js 16 App Router frontend with Tailwind CSS v4 and Framer Motion for a premium UI experience",
     ],
   },
