@@ -117,20 +117,20 @@ export const projects: Project[] = [
   },
   {
     id: "proj-7",
-    name: "Digital Twin Agent",
+    name: "Digital Twin Portfolio",
     description:
-      "This site! An AI agent representing my career for recruiter conversations with streaming responses and session memory.",
-    tech: ["FastAPI", "Python", "Next.js", "OpenRouter"],
+      "A modern full-stack portfolio featuring an interactive AI agent (Digital Twin) that answers recruiter questions and streams real-time responses based on my professional profile.",
+    tech: ["Next.js 16", "Tailwind v4", "FastAPI", "Python", "OpenRouter"],
     track: "Agentic",
     flagship: true,
     github: "https://github.com/MrPwill/princewill-site-with-digital-twin--vercel",
     production: "https://princewill-digital-twin.vercel.app/twin",
     featured: true,
     highlights: [
-      "Python FastAPI backend with profile loader, memory manager, and prompt builder",
-      "Server-Sent Events (SSE) streaming for real-time token-by-token responses",
-      "In-memory session storage with configurable history context",
-      "OpenRouter integration with openai/gpt-oss-120b model",
+      "Stateless Python FastAPI backend optimized for Vercel Serverless with client-managed conversation history",
+      "Server-Sent Events (SSE) streaming for real-time, token-by-token AI responses",
+      "Dynamic prompt building and context-aware responses powered by openai/gpt-4o-mini via OpenRouter",
+      "Modern Next.js 16 App Router frontend with Tailwind CSS v4 and Framer Motion for a premium UI experience",
     ],
   },
 ];
