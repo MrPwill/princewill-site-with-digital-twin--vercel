@@ -1,146 +1,57 @@
-# =========================
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# General
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
-# =========================
+# testing
+/coverage
 
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
 .DS_Store
-Thumbs.db
-*.log
-*.tmp
-*.swp
+*.pem
 
-# =========================
-
-# Environment Variables
-
-# =========================
-
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# =========================
-
-# Node / Next.js
-
-# =========================
-
-node_modules/
-.next/
-out/
-build/
-dist/
-.vercel/
-
-# Logs
-
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
+.pnpm-debug.log*
 
-# =========================
+# env files (can opt-in for committing if needed)
+.env*
 
-# Python
+# vercel
+.vercel
 
-# =========================
+# typescript
+*.tsbuildinfo
+next-env.d.ts
 
+# python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.sqlite3
-
-# Virtual environments
-
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.env
+.venv
 venv/
-env/
-.venv/
-
-
-# Python build
-
-build/
-dist/
-*.egg-info/
-
-# =========================
-
-# FastAPI / Backend
-
-# =========================
-
-*.db
-*.log
-
-# =========================
-
-# AI / Data Files
-
-# =========================
-
-# Local documents (VERY IMPORTANT for your project)
-
-me/*.pdf
-me/*.txt
-me/*.docx
-
-# Vector DB / embeddings
-
-*.faiss
-*.pkl
-*.npy
-*.npz
-
-# =========================
-
-# IDE / Editors
-
-# =========================
-
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-
-# =========================
-
-# OS / Misc
-
-# =========================
-
-coverage/
-.cache/
-*.coverage
-htmlcov/
-
-# =========================
-
-# Docker (optional)
-
-# =========================
-
-docker-compose.override.yml
-
-# =========================
-
-# Terraform (if used later)
-
-# =========================
-
-.terraform/
-*.tfstate
-*.tfstate.backup
-
-myGithubProjectSummary.md
-
-backend\me
-backend/me/summary.txt
+ENV/
 
 AGENTS.md
 CLAUDE.md
+
+myGithubProjectSummary.md

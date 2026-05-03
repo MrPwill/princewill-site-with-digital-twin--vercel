@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  --bg-base: #0A0F1F;
+  --bg-card: #12182B;
+  --bg-elevated: #1A2240;
+
+  --blue-primary: #2EA8FF;
+  --sky-blue: #38BDF8;
+  --gold-accent: #F5B942;
+
+  --text-primary: #E6EAF2;
+  --text-secondary: #9AA4B2;
+  --text-muted: #4A5568;
+
+  --border-subtle: rgba(46, 168, 255, 0.12);
+  --glow-blue: 0 0 24px rgba(46, 168, 255, 0.25);
+  --glow-sky: 0 0 24px rgba(56, 189, 248, 0.30);
+  --glow-active: 0 0 40px rgba(56, 189, 248, 0.45);
+
+  --gradient-primary: linear-gradient(135deg, #2EA8FF 0%, #38BDF8 100%);
+  --gradient-accent: linear-gradient(135deg, #38BDF8 0%, #F5B942 100%);
+  --gradient-bg: radial-gradient(ellipse at 20% 50%, rgba(56,189,248,0.08) 0%, transparent 60%),
+                 radial-gradient(ellipse at 80% 20%, rgba(46,168,255,0.06) 0%, transparent 55%);
+}
+
+@theme inline {
+  --color-bg-base: var(--bg-base);
+  --color-bg-card: var(--bg-card);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-blue-primary: var(--blue-primary);
+  --color-sky-blue: var(--sky-blue);
+  --color-gold-accent: var(--gold-accent);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-border-subtle: var(--border-subtle);
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: 'DM Sans', sans-serif;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Syne', sans-serif;
+}
+
+code, pre {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.transition-default {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}

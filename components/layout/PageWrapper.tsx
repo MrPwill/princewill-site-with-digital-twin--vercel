@@ -1,0 +1,26 @@
+import React from "react";
+
+interface PageWrapperProps {
+  children: React.ReactNode;
+  className?: string;
+  id?: string;
+}
+
+export function PageWrapper({ children, className = "", id }: PageWrapperProps) {
+  return (
+    <section
+      id={id}
+      className={`
+        min-h-screen 
+        pt-20 
+        pb-16 
+        px-4 sm:px-6 lg:px-8 
+        ${className}
+      `}
+    >
+      <div className="max-w-7xl mx-auto">
+        {children}
+      </div>
+    </section>
+  );
+}
