@@ -136,3 +136,8 @@ docker-compose.override.yml
 .terraform/
 *.tfstate
 *.tfstate.backup
+
+myGithubProjectSummary.md
+
+backend\me
+backend/me/summary.txt

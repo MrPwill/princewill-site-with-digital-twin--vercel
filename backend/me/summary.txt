@@ -113,3 +113,247 @@ AI solutions in finance, operations, and SaaS
 Startups or teams needing 0→1 AI system builders
 Currently building multi-agent financial analyst teams and production Digital Twins, Princewill is actively seeking AI Engineer, LLM Engineer, Agentic AI Engineer, or GenAI Platform Engineer roles, freelance/consulting projects, and collaborations where autonomous AI can drive real revenue and operational transformation.
 Passionate about cutting-edge Agentic AI and production excellence, he communicates complex concepts clearly to both technical and executive audiences and is always ready to demonstrate live projects from his GitHub (github.com/MrPwill).
+
+
+# 🚀 MrPwill's GitHub Projects - Complete Overview
+
+Based on the README files from **https://github.com/MrPwill**, here are the detailed project breakdowns with GitHub links, production links, and comprehensive descriptions:
+
+---
+
+## 📌 Pinned/Featured Projects
+
+### 1️⃣ **Slate PM** ⭐ Premium Project Management Tool
+| | |
+|---|---|
+| **GitHub** | 🔗 [github.com/MrPwill/slate-pm](https://github.com/MrPwill/slate-pm) |
+| **Production** | 🌐 [slate-pm.vercel.app](https://slate-pm.vercel.app/) |
+| **Stack** | Next.js 15 • TypeScript • Supabase • Tailwind CSS 4 • OpenRouter AI |
+| **Last Updated** | May 2026 |
+
+#### 📋 Description
+A professional, collaborative Kanban project management application engineered for focus and high-performance teams. Integrates a refined, minimalist UI with robust real-time synchronization and advanced AI-powered utilities.
+
+#### 🔄 Five-Column Kanban Workflow
+```
+Backlog → Todo → In Progress → Review → Done (archived to history)
+```
+
+#### ✨ Core AI Features
+| Feature | Description |
+|---------|-------------|
+| 🤖 Intelligent Task Generation | Transform high-level goals into granular, actionable tasks |
+| 📊 AI Complexity Analysis | Auto-estimates difficulty (Simple/Medium/Complex) |
+| 🏷️ Automated Categorization | Smart tag suggestions for better organization |
+| 💬 Conversation Synthesis | AI-powered summarization of task discussions |
+
+#### 🔧 Technical Highlights
+- **State Management**: Zustand with localStorage persistence + cloud sync
+- **Real-time**: Supabase Realtime for instant cross-client updates
+- **Security**: Row Level Security (RLS) policies at database level
+- **Testing**: Vitest (unit) + Playwright (E2E)
+- **Architecture**: "Local-first, sync-later" cloud-native design
+
+#### 🛠️ Quick Start
+```bash
+git clone https://github.com/MrPwill/slate-pm.git
+cd slate-pm && npm install
+# Add .env.local with Supabase + OpenRouter keys
+npm run dev
+```
+
+---
+
+### 2️⃣ **ClauseGuard Africa** ⭐ Legal Document Platform
+| | |
+|---|---|
+| **GitHub** | 🔗 [github.com/MrPwill/clause_guard](https://github.com/MrPwill/clause_guard) |
+| **Production** | 🌐 [clause-guard-chi.vercel.app](https://clause-guard-chi.vercel.app) |
+| **Stack** | Next.js 16 • TypeScript • Supabase • OpenRouter • @react-pdf/renderer |
+| **Last Updated** | May 2026 |
+
+#### 📋 Description
+A specialized legal document generation platform providing accessible, jurisdiction-aware legal protection for freelancers, startups, SMEs, and content creators across Africa.
+
+#### 🌍 Jurisdiction-Aware Coverage
+| Country | Legal Framework References |
+|---------|---------------------------|
+| 🇳🇬 Nigeria | CAMA 2020, NDPR 2019 |
+| 🇰🇪 Kenya | Companies Act 2015, DPA 2019 |
+| 🇬🇭 Ghana | Companies Act 2019, DPA 2012 |
+| 🇿🇦 South Africa | Companies Act 2008, POPIA 2013 |
+
+#### 🎯 Specialized Document Tracks
+- **Freelancer**: Service agreements, NDAs, demand letters, IP ownership clauses
+- **Startup/SME**: Shareholder agreements, vesting schedules, employment contracts, privacy policies
+- **Creator/Influencer**: Brand deal contracts, licensing agreements, collaboration terms
+
+#### ✨ Key Features
+- 🧠 AI-Powered Questionnaire: Plain-language wizard simplifies legal complexity
+- ⚡ Streaming Generation: Real-time document drafting via OpenRouter
+- ✍️ E-Signatures: Digital signing with `react-signature-canvas`
+- 📄 PDF Export: Professional branded documents via `@react-pdf/renderer`
+
+#### 🔐 Security
+- Row Level Security (RLS) ensures users only access their own documents
+- Server-side API key management
+- Signed Storage URLs for secure PDF access
+
+---
+
+### 3️⃣ **AI SDR Platform** ⭐ Autonomous Sales Engine
+| | |
+|---|---|
+| **GitHub** | 🔗 [github.com/MrPwill/ai_sdr_agent](https://github.com/MrPwill/ai_sdr_agent) |
+| **Production** | ⚙️ *Local/CLI tool (no public demo)* |
+| **Stack** | Python 3.11-3.12 • OpenAI/SendGrid/Serper APIs • SQLite CRM |
+| **Last Updated** | February 2026 |
+
+#### 📋 Description
+A production-grade autonomous outbound revenue engine built with multiple LLM agents, lightweight CRM, deduplication, ICP scoring, guardrails, and webhook-driven reply handling.
+
+#### 🔄 Pipeline Architecture
+```mermaid
+flowchart LR
+  A[Lead Researcher] --> B[CRM + Dedup]
+  B --> C[ICP Scoring]
+  C --> D[Qualification]
+  D --> E[Sales Manager]
+  E --> F[Email Manager]
+  F --> G[SendGrid]
+  G --> H[Webhook]
+  H --> I[Reply Classifier] --> J[Conversation Manager]
+```
+
+#### 🤖 Multi-Agent System
+| Agent | Responsibility |
+|-------|---------------|
+| 🔍 Lead Researcher | Queries Serper API to discover prospects |
+| 🛡️ Input Guard | Validates lead data, blocks invalid entries |
+| 📊 ICP Scorer | Scores leads against `config/icp_rules.yaml` |
+| ✉️ Sales Manager | Generates persona-based email drafts |
+| 📤 Email Manager | Formats, guards, and sends via SendGrid |
+| 🔄 Reply Classifier | Processes inbound webhook responses |
+
+#### ⚙️ Configuration Example
+```env
+OPENAI_API_KEY=...
+SENDGRID_API_KEY=...
+SERPER_API_KEY=...
+EMAIL_MODE=test  # or 'live'
+DRY_RUN=false
+SDR_DEBUG=true   # enables JSON logging
+```
+
+---
+
+## 🗂️ Other Public Repositories
+
+### 4️⃣ **AI Customer Support Agent**
+| | |
+|---|---|
+| **GitHub** | 🔗 [github.com/MrPwill/AI-Customer-Support-Agent](https://github.com/MrPwill/AI-Customer-Support-Agent) |
+| **Production** | ⚙️ *Local FastAPI server* |
+| **Stack** | Python • FastAPI • OpenAI GPT-4 • SQLite • HTML/CSS/JS |
+| **Last Updated** | April 2026 |
+
+#### 📋 Description
+An intelligent, function-calling AI agent that handles customer support queries, manages orders, and processes tickets in real-time.
+
+#### ✨ Capabilities
+- 📦 **Check Order Status**: Retrieve real-time shipping/delivery details
+- 🎫 **Manage Tickets**: Check status or create new support tickets instantly  
+- 👤 **Update Profiles**: Securely modify user account information
+
+#### 🏗️ Architecture Flow
+```
+User → FastAPI Backend → OpenAI GPT-4 → Function Execution → SQLite DB → Response
+```
+
+#### 💡 Example Prompts
+```
+"Where is my order ORD-123?"
+"I need to change my email to new@example.com"
+"Create a ticket for a broken screen"
+```
+
+---
+
+### 5️⃣ **Synthetic Data Generator** 🧬
+| | |
+|---|---|
+| **GitHub** | 🔗 [github.com/MrPwill/pwill_synthetic_data_generator](https://github.com/MrPwill/pwill_synthetic_data_generator) |
+| **Production** | ⚙️ *Gradio UI at localhost:7860* |
+| **Stack** | Python 3.12 • Gradio • OpenRouter • Pydantic • SQLite/SQLAlchemy |
+| **Last Updated** | February 2026 |
+
+#### 📋 Description
+A production-grade, multi-agent platform for generating, validating, and refining high-quality synthetic datasets to solve data scarcity in AI development.
+
+#### 🤖 Self-Correcting Agent Loop
+```
+Generator Agent → Judge Agent → Refiner Agent → Validated Output
+```
+
+#### ✨ Key Features
+| Feature | Benefit |
+|---------|---------|
+| 🔌 Multi-Model Support | Swap between Llama 3, Mistral, DeepSeek, Qwen via OpenRouter |
+| 🛡️ Automated Validation | Strict JSON schema + logical correctness checks |
+| 📊 Multiple Formats | JSON, Pandas DataFrames, CSV, Text/Reasoning chains |
+| 💾 Persistence | Auto-archives runs, prompts, scores to SQLite for auditability |
+| 🖥️ Interactive UI | Clean Gradio interface for configuration & visualization |
+
+#### 🚀 Quick Launch
+```bash
+git clone https://github.com/MrPwill/pwill_synthetic_data_generator
+cd pwill_synthetic_data_generator && uv sync
+# Add OPENROUTER_API_KEY to .env
+uv run python -m app.main  # Opens at http://127.0.0.1:7860
+```
+
+---
+
+### 6️⃣ **AI-JobFitAnalyzer**
+| | |
+|---|---|
+| **GitHub** | 🔗 [github.com/MrPwill/AI-JobFitAnalyzer](https://github.com/MrPwill/AI-JobFitAnalyzer) |
+| **Production** | ⚙️ *Early stage - Vite/React scaffold* |
+| **Stack** | TypeScript • React • Vite • Gemini API |
+| **Last Updated** | November 2025 |
+
+#### 📋 Description
+*Early-stage project* designed to help jobseekers tailor their CVs/resumes to match specific job descriptions using AI analysis. Based on the repository structure, it appears to be a React frontend that will integrate with Google's Gemini API for resume-job matching analysis.
+
+#### 🔧 Current State
+- ✅ Project scaffolded with Vite + React + TypeScript
+- ✅ Basic component structure (`components/`, `services/`)
+- 🔄 Actively in development (minimal commits as of Nov 2025)
+
+---
+
+## 📊 Quick Reference Table
+
+| Project | GitHub | Production | Primary Stack | Status |
+|---------|--------|------------|--------------|--------|
+| **Slate PM** | [🔗](https://github.com/MrPwill/slate-pm) | [🌐](https://slate-pm.vercel.app/) | Next.js 15, TS, Supabase | ✅ Production |
+| **ClauseGuard Africa** | [🔗](https://github.com/MrPwill/clause_guard) | [🌐](https://clause-guard-chi.vercel.app) | Next.js 16, TS, Supabase | ✅ Production |
+| **AI SDR Platform** | [🔗](https://github.com/MrPwill/ai_sdr_agent) | — | Python, OpenAI, SendGrid | ✅ CLI Tool |
+| **AI Customer Support** | [🔗](https://github.com/MrPwill/AI-Customer-Support-Agent) | — | Python, FastAPI, SQLite | ✅ Local Server |
+| **Synthetic Data Gen** | [🔗](https://github.com/MrPwill/pwill_synthetic_data_generator) | localhost:7860 | Python, Gradio, OpenRouter | ✅ Local UI |
+| **AI-JobFitAnalyzer** | [🔗](https://github.com/MrPwill/AI-JobFitAnalyzer) | — | React, Vite, Gemini | 🚧 Early Dev |
+
+---
+
+## 🔑 Common Patterns Across Projects
+
+1. **AI-First Architecture**: All projects leverage LLMs via OpenRouter/OpenAI for intelligent features
+2. **Type Safety**: Strong preference for TypeScript (frontend) and Python type hints (backend)
+3. **Supabase Integration**: Heavy use of Supabase for auth, PostgreSQL, realtime, and RLS security
+4. **Modern Tooling**: Next.js App Router, Tailwind CSS, Zustand, Pydantic, uv/pip
+5. **Production Ready**: Emphasis on testing (Vitest/Playwright/pytest), logging, and error handling
+6. **MIT Licensed**: All projects use permissive open-source licensing
+
+> 💡 **Developer Profile**: These projects belong to **Princewill C. Chioma**, a full-stack developer specializing in AI-powered applications with expertise in TypeScript, Python, Next.js, and cloud-native architectures.
+
+*Last verified: May 2026* 🔄

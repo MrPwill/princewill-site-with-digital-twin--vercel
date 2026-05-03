@@ -23,22 +23,22 @@ def test_build_system_prompt_with_memory():
 def test_prompt_contains_rules():
     """Test that prompt contains response rules."""
     prompt = build_system_prompt()
-    assert "RESPONSE RULES" in prompt
+    assert "RULES" in prompt
     assert "first person" in prompt.lower()
 
 
-def test_prompt_contains_identity():
-    """Test that prompt contains identity section."""
+def test_prompt_contains_about_section():
+    """Test that prompt contains about section."""
     prompt = build_system_prompt()
-    assert "IDENTITY" in prompt
+    assert "ABOUT PRINCEWILL" in prompt
     assert "professional" in prompt.lower()
 
 
-def test_prompt_contains_career_context():
-    """Test that prompt contains career context placeholder."""
+def test_prompt_contains_context_placeholder():
+    """Test that prompt contains context placeholder."""
     prompt = build_system_prompt()
-    assert "CAREER CONTEXT" in prompt
-    assert "PROFESSIONAL SUMMARY" in prompt
+    assert "CONTEXT FROM PROFILE" in prompt
+    assert "SESSION MEMORY" in prompt
 
 
 def test_get_prompt_length():
