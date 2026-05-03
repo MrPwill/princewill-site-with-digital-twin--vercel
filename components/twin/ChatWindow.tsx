@@ -50,7 +50,7 @@ export function ChatWindow() {
         content: msg.content
       }));
 
-      const response = await fetch("/api/twin", {
+      const response = await fetch("/api/chat/stream", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -122,9 +122,7 @@ export function ChatWindow() {
   const handleNewConversation = async () => {
     if (sessionId) {
       try {
-        const url = new URL("/api/twin", window.location.origin);
-        url.searchParams.set("session_id", sessionId);
-        await fetch(url.toString(), {
+        await fetch(`/api/chat/session/${sessionId}`, {
           method: "DELETE",
         });
       } catch {
