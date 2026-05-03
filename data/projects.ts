@@ -123,6 +123,8 @@ export const projects: Project[] = [
     tech: ["FastAPI", "Python", "Next.js", "OpenRouter"],
     track: "Agentic",
     flagship: true,
+    github: "https://github.com/MrPwill/princewill-site-with-digital-twin--vercel",
+    production: "https://princewill-digital-twin.vercel.app/twin",
     featured: true,
     highlights: [
       "Python FastAPI backend with profile loader, memory manager, and prompt builder",
