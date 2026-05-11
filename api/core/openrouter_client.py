@@ -17,7 +17,7 @@ load_dotenv(dotenv_path=ENV_PATH)
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = os.getenv("OPENROUTER_MODEL", "openai/gpt-oss-120b")
+MODEL = os.getenv("OPENROUTER_MODEL", "deepseek/deepseek-v4-flash")
 SITE_URL = os.getenv("SITE_URL", "https://princewill.dev")
 OPENROUTER_STRICT = os.getenv("OPENROUTER_STRICT", "false").lower() == "true"
 
@@ -59,7 +59,7 @@ async def stream_completion(
         return
     
     payload = {
-        "models": [MODEL, "deepseek/deepseek-v4-flash"],
+        "model": MODEL,
         "stream": True,
         "max_tokens": 1024,
         "temperature": 0.7,
