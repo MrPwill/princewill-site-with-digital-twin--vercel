@@ -5,7 +5,7 @@ A modern, high-performance personal portfolio website featuring a "Digital Twin"
 
 ## Features
 - **Interactive Digital Twin**: An AI-powered chatbot that simulates conversation with Princewill, providing insights into his professional background, projects, and technical skills.
-- **Project Showcase**: Detailed overviews of key projects including Slate PM, ClauseGuard Africa, AI SDR Platform, Synthetic Data Generator, and more.
+- **Project Showcase**: Detailed overviews of key projects including TxGuard AI, Slate PM, ClauseGuard Africa, AI SDR Platform, Synthetic Data Generator, and more.
 - **Modern UI/UX**: Designed with Tailwind CSS v4 and Framer Motion for smooth animations and a premium, responsive user experience.
 - **Streaming Responses**: Real-time streaming of AI responses using Server-Sent Events (SSE) for a seamless chat experience.
 

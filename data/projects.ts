@@ -16,6 +16,36 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "proj-1",
+    name: "TxGuard AI",
+    description:
+      "Intelligent Fraud Detection & Autonomous Investigation Platform. Real-time transaction monitoring with hybrid ML models and multi-agent AI investigations.",
+    tech: [
+      "FastAPI",
+      "Next.js",
+      "Python",
+      "Scikit-learn",
+      "CrewAI",
+      "PostgreSQL",
+      "Redis",
+      "Celery",
+      "ChromaDB",
+      "Docker",
+      "Terraform",
+      "Google Cloud Run",
+    ],
+    track: "Agentic",
+    flagship: true,
+    github: "https://github.com/MrPwill/txguard",
+    featured: true,
+    highlights: [
+      "Hybrid risk engine combining rule-based detection with ML anomaly models (Isolation Forest + LOF)",
+      "Multi-agent investigation workflow with CrewAI for autonomous compliance and fraud pattern analysis",
+      "Explainable AI (XAI) using SHAP values to provide transparent reasoning for flagged transactions",
+      "Cloud-native deployment with Docker, Terraform, and GCR, including WebSocket real-time monitoring",
+    ],
+  },
+  {
+    id: "proj-2",
     name: "Slate PM",
     description:
       "Professional Kanban project management with AI-powered task generation, complexity analysis, and smart categorization. Real-time sync via Supabase.",
@@ -33,7 +63,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "proj-2",
+    id: "proj-3",
     name: "ClauseGuard Africa",
     description:
       "Jurisdiction-aware legal document platform for African freelancers and SMEs. AI-powered questionnaire with PDF export and e-signatures.",
@@ -51,7 +81,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "proj-3",
+    id: "proj-4",
     name: "AI SDR Platform",
     description:
       "Production-grade autonomous outbound revenue engine with multi-agent orchestration, ICP scoring, and webhook-driven reply handling.",
@@ -68,7 +98,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "proj-4",
+    id: "proj-5",
     name: "AI Customer Support Agent",
     description:
       "Intelligent function-calling AI agent handling order tracking, ticket management, and profile updates with real-time SQLite persistence.",
@@ -84,7 +114,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "proj-5",
+    id: "proj-6",
     name: "Synthetic Data Generator",
     description:
       "Multi-agent platform for generating validated synthetic datasets. Self-correcting generator-judge-refiner loop with Gradio UI.",
@@ -100,7 +130,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "proj-6",
+    id: "proj-7",
     name: "AI-JobFitAnalyzer",
     description:
       "AI-powered resume-job matching tool that helps jobseekers tailor CVs to specific job descriptions using Gemini API analysis.",
@@ -116,7 +146,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "proj-7",
+    id: "proj-8",
     name: "Digital Twin Portfolio",
     description:
       "A modern full-stack portfolio featuring an interactive AI agent (Digital Twin) that answers recruiter questions and streams real-time responses based on my professional profile.",

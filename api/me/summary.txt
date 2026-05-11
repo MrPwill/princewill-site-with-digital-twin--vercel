@@ -4,120 +4,166 @@ Princewill C. Chioma is an AI Systems Engineer based in Lagos, Nigeria, speciali
 What makes Princewill unique is his hybrid career foundation: nearly a decade of experience in finance, operations, and regulatory environments, combined with advanced expertise in AI engineering and data systems. This dual background allows him to design AI solutions that are not only technically sound but also aligned with real-world business constraints, compliance requirements, and operational efficiency.
 
 Professional Evolution
-
-Princewill’s career reflects a deliberate progression from business operations into advanced AI engineering:
-
-Began in audit and internal control at Guaranty Trust Bank, focusing on compliance and risk management
-Advanced into finance and operations leadership, driving measurable impact including cost reduction and productivity improvements
-Transitioned into data science, building analytical and machine learning systems
-Currently operates as a full-stack AI Engineer, designing and deploying intelligent systems end-to-end
+Princewill's career reflects a deliberate progression from business operations into advanced AI engineering:
+• Began in audit and internal control at Guaranty Trust Bank, focusing on compliance and risk management (AML, CBN, NFIU reporting)
+• Advanced into finance and operations leadership at BOCH Systems West Africa, driving measurable impact including 28% cost reduction and 50% productivity improvements
+• Transitioned into data science and software engineering at Extreme Tech Svcs, building ML models, ETL pipelines, and 5+ full-stack applications for SMEs
+• Currently operates as a full-stack AI Engineer at Stardom Financial Services, designing and deploying intelligent systems end-to-end
 
 This journey gives him a rare ability to bridge business needs and AI implementation.
 
 Core Expertise
 AI Engineering & LLM Systems
-
 Princewill designs intelligent systems using:
+• Retrieval-Augmented Generation (RAG) with ChromaDB, Pinecone, and vector embeddings
+• Fine-tuning techniques (including QLoRA) and HuggingFace pipelines
+• Multimodal AI (text, audio, image) with function calling and UI integration
+• Prompt engineering, LLM selection, and model orchestration via LangChain
+• Hybrid scoring systems combining rule engines with ML models (Isolation Forest, LOF)
 
-Retrieval-Augmented Generation (RAG)
-Fine-tuning techniques (including QLoRA)
-Multimodal AI (text, audio, image)
-Prompt engineering and model orchestration
-Vector databases and embedding systems
 Agentic AI Systems
-
 He has deep hands-on experience building autonomous and multi-agent systems using:
+• CrewAI, LangGraph, AutoGen for sequential and parallel agent workflows
+• Google Agent Development Kit (ADK) and OpenAI Agents SDK
+• Model Context Protocol (MCP) with multi-server, 44+ tool integrations
+• Complex agent swarms, decision loops, and async Celery-based task orchestration
+• RAG-powered agent knowledge bases with ChromaDB vector stores
 
-CrewAI, LangGraph, AutoGen
-OpenAI Agents SDK and Google ADK
-Model Context Protocol (MCP) with multi-tool integrations
-Complex agent workflows, swarms, and decision loops
 MLOps & Cloud Deployment
-
 Princewill delivers production-ready systems using:
+• AWS (Bedrock, SageMaker, Lambda, SQS, Aurora Serverless, App Runner, CloudFront, Route53, S3 Vectors)
+• GCP Cloud Run with Terraform IaC, Cloud SQL, Memorystore Redis, Secret Manager
+• Azure ML and hybrid cloud architectures
+• CI/CD pipelines (GitHub Actions), Docker multi-stage builds, serverless architectures
+• Observability tools like LangFuse, SHAP explainability, and model drift monitoring
 
-AWS (Bedrock, SageMaker, Lambda, S3, Aurora Serverless, etc.)
-GCP and Azure ML
-CI/CD pipelines (GitHub Actions), Infrastructure as Code (Terraform)
-Observability tools like LangFuse
-Docker and serverless architectures
 Software Engineering & Data
-Python (primary language), SQL
-FastAPI, Next.js, TypeScript
-ETL pipelines, data modeling, and analytics tools
+• Python (expert), SQL, FastAPI, Next.js 14 (App Router), TypeScript
+• ETL pipelines, data modeling, Pandas, scikit-learn, PostgreSQL
+• Real-time systems: WebSocket, Server-Sent Events (SSE), Redis pub/sub
+• Authentication: Clerk Auth, role-based access control patterns
+
 Automation & AI Integrations
-Workflow automation with N8N, Zapier, Make.com, Airtable
-API integrations (REST, OpenRouter, Serper, SendGrid)
-Voice AI systems (ElevenLabs)
+• Workflow automation with n8n, Zapier, Make.com, Airtable
+• API integrations (REST, OpenRouter, Serper, SendGrid, WhatsApp, Slack, Email)
+• Voice AI systems (ElevenLabs) for customer interaction and internal automation
+• Synthetic data generation and configurable dataset pipelines
+
 Domain Strength: Financial Systems & Operations
-
 Princewill brings strong domain expertise in:
-
-Financial services automation
-Regulatory compliance (AML, CBN, NFIU)
-Business operations optimization
-Forecasting and cost efficiency
+• Financial services automation and transaction monitoring
+• Regulatory compliance (AML, CBN, NFIU), SAR/CTR detection, sanctions screening
+• Business operations optimization, forecasting, and cost efficiency
+• Fraud detection patterns, behavioral analytics, and risk scoring
 
 This enables him to build AI systems that are compliant, scalable, and commercially viable, especially in regulated industries.
 
 Selected Projects & Systems
+Pinned GitHub Repositories (github.com/MrPwill)
 
-Princewill has built and deployed a wide range of AI systems, including:
+🔷 txguard — Intelligent Transaction Monitoring & Fraud Investigation Platform [Python]
+• Real-time hybrid risk scoring (<200ms): Rule engine + Isolation Forest/LOF
+• Autonomous 4-agent CrewAI investigation pipeline (Transaction Analyst → Fraud Investigator → Compliance Specialist → Risk Officer)
+• ChromaDB RAG for sanctions screening and compliance knowledge base
+• SHAP explainability for feature attribution and immutable audit trails
+• Next.js 14 dashboard with real-time WebSocket alerts and SSE streaming
+• Deployed via Terraform on GCP Cloud Run with Cloud SQL + Memorystore Redis
+• Tech: FastAPI, Python, Next.js, CrewAI, ChromaDB, PostgreSQL, Redis+Celery, Docker, Terraform, SHAP
 
-Healthcare AI SaaS Platform — Converts consultation notes into structured medical records and patient-ready outputs
-AI Business Development Agent — Multi-agent pipeline handling research, qualification, copywriting, and outreach
-AI Customer Support Agent — Conversational system with structured outputs for business workflows
-Synthetic Data Generator — Configurable system for generating structured datasets
-Automation Systems — Airtable and API-driven workflow automation with validation logic
+🔷 slate-pm — Professional Kanban Project Management with AI Utilities [TypeScript]
+• Five-column Kanban workflow: Backlog → Todo → In Progress → Review → Done
+• AI-powered task generation: Converts project goals into actionable tasks via OpenRouter
+• AI complexity analysis: Auto-classifies tasks as Simple/Medium/Complex
+• Automated tagging and conversation summarization for team collaboration
+• Real-time sync via Supabase Realtime with offline-first localStorage fallback
+• Row Level Security (RLS) for data isolation and collaborative board sharing
+• Tech: Next.js 15, TypeScript, Tailwind CSS 4, Supabase, OpenRouter, dnd-kit, Zustand
 
-He has also completed 15+ advanced AI systems, including:
+🔷 clause_guard — Legal Document Generation Platform for Africa [TypeScript]
+• Jurisdiction-aware contracts for Nigeria (CAMA 2020, NDPR 2019), Kenya, Ghana, South Africa
+• Specialized tracks: Freelancer, Startup/SME, Creator/Influencer document types
+• AI-powered questionnaire wizard with streaming document generation via OpenRouter
+• E-signature support and professional PDF export with custom branding
+• Supabase backend with RLS for document privacy and secure storage
+• Tech: Next.js 16, TypeScript, Supabase, OpenRouter, @react-pdf/renderer, react-signature-canvas
 
-Multi-modal AI assistants
-Autonomous multi-agent ecosystems
-RAG-based knowledge workers
-AI-powered developer tools
-Financial and trading AI systems
-Cybersecurity and browser automation agents
+🔷 ai_sdr_agent — Autonomous Outbound Revenue Engine [Python]
+• Multi-agent pipeline: Lead Researcher → ICP Scoring → Qualification → Sales Manager → Email Manager
+• Lightweight CRM with deduplication and cooldown logic to prevent duplicate outreach
+• SendGrid webhook integration for inbound reply classification and conversation management
+• Guardrails for input validation and output safety on all AI-generated content
+• Configurable ICP rules engine for lead qualification against business criteria
+• Tech: Python, FastAPI, OpenAI/Serper APIs, SendGrid, SQLite, Pydantic, uv
+
+🔷 AI-Customer-Support-Agent — Function-Calling Support AI [Python]
+• Real-time customer support agent with OpenAI function calling for database operations
+• Executes real actions: check order status, manage support tickets, update user profiles
+• Context-aware conversation history with brand persona enforcement via system prompts
+• FastAPI backend with clean HTML/CSS/JS frontend and glassmorphism UI design
+• Robust logging for monitoring, debugging, and audit trail compliance
+• Tech: Python, FastAPI, OpenAI API, SQLite, HTML/CSS/JS, Pydantic
+
+🔷 pwill_synthetic_data_generator — Multi-Agent Synthetic Data Platform [Python]
+• Self-correcting agentic workflow: Generator → Judge → Refiner loop for quality assurance
+• Multi-model support via OpenRouter: Llama 3, Mistral, DeepSeek, Qwen, and more
+• Strict JSON schema validation and logical correctness checks on all outputs
+• Multiple export formats: JSON, CSV, Pandas DataFrames, raw text/reasoning chains
+• SQLite persistence layer with SQLAlchemy for audit trails of all generation runs
+• Interactive Gradio UI for configuration, visualization, and real-time monitoring
+• Tech: Python, Gradio, OpenRouter API, Pydantic, SQLAlchemy, uv
+
+Additional Advanced AI Systems (15+ completed)
+• Multi-modal AI assistants with function calling and UI integration
+• Autonomous multi-agent ecosystems with MCP integrations and tool orchestration
+• RAG-based knowledge workers for enterprise documentation and shared drives
+• AI-powered developer tools (Python→C++ code optimizer: 60,000× performance boost)
+• Financial forecasting and trading AI systems with real-time market data
+• Cybersecurity analyst agents with browser automation and threat intelligence
+
 Education & Certifications
+Princewill holds:
+• BSc in Computer Science — University of the People
+• Certificate, Applied Data Science Lab — WorldQuant University
+• Advanced Diploma in Accounting and Business (ACCA pathway)
+• HND, Secretarial Administration — The Federal Polytechnic Nekede, Owerri
+• Professional PGD, Customer Relationship & Management — ICRM
 
-Princewill holds a BSc in Computer Science and multiple credentials across:
+Advanced Hands-On Training:
+• Advanced AI Engineering — Ed Donner (Udemy 2025): LLM Engineering, RAG, QLoRA, AI Agents, MLOps
+• Google Agent Development Kit (ADK) — Building AI Agents with Google ADK
+• AI Leadership Track: Gen AI, Agentic AI for Business Leaders
+• ChatGPT Prompt Engineering for Developers — DeepLearning.AI
+• AI Fundamentals & Associate Data Engineer in SQL — DataCamp
+• Certificate in Network & Application Security — University of the People (2025)
 
-Applied Data Science
-Accounting and Business (ACCA pathway)
-Cybersecurity and network systems
-
-He has completed advanced, hands-on training across:
-
-LLM engineering, agentic AI, and multi-agent systems
-MLOps and large-scale AI deployment
-AI leadership and business applications
-Prompt engineering and data engineering
 What Sets Him Apart
-Business + AI Integration: Combines deep financial and operational experience with cutting-edge AI engineering
-End-to-End Builder: Designs, builds, deploys, and scales AI systems independently
-Agentic AI Specialist: Experienced across all major modern agent frameworks and architectures
-Proven Execution: Delivered live SaaS applications, production systems, and numerous advanced AI projects
+• Business + AI Integration: Combines deep financial and operational experience with cutting-edge AI engineering
+• End-to-End Builder: Designs, builds, deploys, and scales AI systems independently—from concept to Cloud Run
+• Agentic AI Specialist: Experienced across all major modern agent frameworks (CrewAI, LangGraph, AutoGen, Google ADK, MCP)
+• Production Excellence: Delivered live SaaS applications, real-time monitoring systems, and numerous advanced AI projects with observability and explainability
+• Compliance-First Mindset: Builds AI systems with regulatory requirements (AML, GDPR, audit trails) embedded by design
+
 How to Position Him
-
 Princewill is best described as:
-
-A Production AI Engineer
-An Agentic AI Systems Specialist
-A Full-Stack AI Builder for Real-World Business Problems
+✓ A Production AI Engineer
+✓ An Agentic AI Systems Specialist
+✓ A Full-Stack AI Builder for Real-World Business Problems
+✓ A Financial AI Domain Expert
 
 He is particularly well-suited for:
+• AI product engineering roles (0→1 system building)
+• LLM and agent-based system development (RAG, fine-tuning, orchestration)
+• AI solutions in finance, operations, compliance, and SaaS
+• Startups or teams needing production-grade GenAI/MLOps expertise
 
-AI product engineering roles
-LLM and agent-based system development
-AI solutions in finance, operations, and SaaS
-Startups or teams needing 0→1 AI system builders
-Currently building multi-agent financial analyst teams and production Digital Twins, Princewill is actively seeking AI Engineer, LLM Engineer, Agentic AI Engineer, or GenAI Platform Engineer roles, freelance/consulting projects, and collaborations where autonomous AI can drive real revenue and operational transformation.
+Currently building multi-agent financial analyst teams, production Digital Twins, and TxGuard AI, Princewill is actively seeking AI Engineer, LLM Engineer, Agentic AI Engineer, or GenAI Platform Engineer roles, freelance/consulting projects, and collaborations where autonomous AI can drive real revenue and operational transformation.
+
 Passionate about cutting-edge Agentic AI and production excellence, he communicates complex concepts clearly to both technical and executive audiences and is always ready to demonstrate live projects from his GitHub (github.com/MrPwill).
 
+GitHub Activity: 91+ contributions in the last year | Primary languages: Python (57.7%), TypeScript (32.1%), HCL/Terraform (6.3%)
+Pinned Repositories: txguard, slate-pm, clause_guard, ai_sdr_agent, AI-Customer-Support-Agent, pwill_synthetic_data_generator
 
-# 🚀 MrPwill's GitHub Projects - Complete Overview
 
-Based on the README files from **https://github.com/MrPwill**, here are the detailed project breakdowns with GitHub links, production links, and comprehensive descriptions:
 
 ---
 
@@ -354,6 +400,6 @@ uv run python -m app.main  # Opens at http://127.0.0.1:7860
 5. **Production Ready**: Emphasis on testing (Vitest/Playwright/pytest), logging, and error handling
 6. **MIT Licensed**: All projects use permissive open-source licensing
 
-> 💡 **Developer Profile**: These projects belong to **Princewill C. Chioma**, a full-stack developer specializing in AI-powered applications with expertise in TypeScript, Python, Next.js, and cloud-native architectures.
+> 💡 Developer Profile: These projects belong to **Princewill C. Chioma**, a full-stack developer specializing in AI-powered applications with expertise in TypeScript, Python, Next.js, and cloud-native architectures.
 
-*Last verified: May 2026* 🔄
+Last Updated: May 2026
